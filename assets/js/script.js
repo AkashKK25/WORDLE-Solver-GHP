@@ -279,10 +279,6 @@ document.addEventListener('DOMContentLoaded', function() {
         filteredRareWords = filteredRareWords.filter(word => 
             !filteredCommonWords.includes(word));
         
-        // Limit results
-        filteredCommonWords = filteredCommonWords.slice(0, 50);
-        filteredRareWords = filteredRareWords.slice(0, 50);
-        
         // Display results
         const commonWordList = document.getElementById('common-word-list');
         const rareWordList = document.getElementById('rare-word-list');

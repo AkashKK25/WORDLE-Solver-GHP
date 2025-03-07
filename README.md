@@ -18,7 +18,7 @@ Wordle Solver is an interactive tool that assists players in finding solutions f
 
 ## 🚀 Demo
 
-Try out the live web app: [Wordle Solver](https://your-deployment-url.com)
+Try out the live web app: [Wordle Solver](https://akashkk25.github.io/WORDLE-Solver-GHP/)
 
 ## 💻 Technologies Used
 
@@ -111,7 +111,6 @@ Project Link: [https://github.com/akashkk25/wordle-solver](https://github.com/ak
 
 - [Wordle](https://www.nytimes.com/games/wordle/index.html) - The original game that inspired this project
 - [Bootstrap](https://getbootstrap.com/) - The responsive CSS framework used
-- [Font Awesome](https://fontawesome.com/) - For the beautiful icons
 
 ---
 
