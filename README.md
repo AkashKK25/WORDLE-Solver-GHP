@@ -2,7 +2,7 @@
 
 A powerful web application that helps solve the daily [Wordle](https://www.nytimes.com/games/wordle/index.html) puzzle by suggesting possible words based on your current guesses.
 
-![Wordle Solver Screenshot](static/screenshot.png)
+![Wordle Solver Screenshot](assets/screenshot.png)
 
 ## 📝 Description
 
