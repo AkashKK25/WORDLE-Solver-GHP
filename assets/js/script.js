@@ -25,15 +25,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 .map(word => word.trim().toLowerCase())
                 .filter(word => word.length === 5);
             
-            // Create rare words list (simplified version)
-            const alphabet = 'abcdefghijklmnopqrstuvwxyz';
-            // Generate some sample rare words for demonstration
-            rareWords = [
-                "aback", "abase", "abate", "abbey", "abbot",
-                "cabby", "cabal", "cabin", "cable", "cacao",
-                "dacha", "daily", "daisy", "dally", "dandy",
-                // Add more rare words as needed
-            ];
+            // Create rare words list
+            const rareResponse = await fetch('assets/data/rare_words.txt');
+            const rareText = await rareResponse.text();
+            rareWords = rareText.split('\n')
+                .map(word => word.trim().toLowerCase())
+                .filter(word => word.length === 5);
             
             console.log(`Loaded ${commonWords.length} common words and ${rareWords.length} rare words`);
         } catch (error) {
